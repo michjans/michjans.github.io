@@ -1,0 +1,136 @@
+
+p {
+margin-left: 20px;
+font-size: 100%;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-size: 260%
+}
+
+h2 {
+  color: #FFFFFF
+  font-size: 250%
+}
+
+h3 {
+  color: #FFFFFF
+  font-size: 200%
+}
+
+body {
+  color: #FFFFFF;
+  background-color: #2c405b;
+  text-align: left;
+  font-family: arial,helvetica,sans-serif;
+  font-size:14px;
+}
+
+a:link {
+	color: #FFFFFF;
+	border: none;
+	font-family: arial,helvetica,sans-serif;
+}
+
+a:visited {
+	color: #6b8ab8;
+	font-family: arial,helvetica,sans-serif;
+}
+
+a:hover {
+	color: #6b8ab8;
+	font-family: arial,helvetica,sans-serif;
+}
+
+a:active {
+	color: #6b8ab8;
+	font-family: arial,,sans-serif;
+}
+
+ul {
+  text-align: left;
+  font-family: arial,helvetica,sans-serif;
+  font-size:12px;
+}
+
+A IMG {border-style: none;}
+
+#main {
+ position:relative;
+ float:center;
+ margin-left: 17em;
+}
+
+#main table, td {
+  text-align: left;
+  font-family: arial,helvetica,sans-serif;
+  font-size:12px;
+  border: 1;
+  border-top: 1px solid #369;
+  border-left: 1px solid #369;
+  border-right: 1px solid #69c;
+  border-bottom: 1px solid #369;
+
+}
+
+
+#OneStatTag {
+ margin-bottom: 1em;
+ position: absolute;
+ bottom: 0;
+}
+
+#navigator {
+ position:relative;
+ float:left;
+ font-family: verdana, Helvetica, Arial, sans-serif;
+ font-size: 12px;
+ font-weight: bold;
+ width: 9em;
+ height: 100%;
+ padding: 0;
+}
+
+#navigator ul {
+ border-top: 1px solid #369;
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+
+#navigator ul li {
+ margin: 0;
+ color: #999;
+ border-left: 10px solid #369;
+ border-right: 1px solid #69c;
+ border-bottom: 1px solid #369;
+ padding: 2px 2px 2px 4px;
+}
+
+#navigator ul li a {
+ margin: 0;
+ display: block;
+ color: #fff;
+ text-decoration: none;
+ width: 100%;
+}
+
+#navigator ul li a:hover {
+ color: #1a1;
+}
+
+#navigator table {
+  text-align: left;
+  font-family: arial,helvetica,sans-serif;
+  font-size:10px;
+  border: 0;
+  border-top: 1px solid #369;
+  border-left: 10px solid #369;
+  border-right: 1px solid #69c;
+  border-bottom: 1px solid #369;
+}
+
+#navigator td {
+  border: 0;
+}
