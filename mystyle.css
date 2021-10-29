@@ -1,22 +1,21 @@
 
 p {
 margin-left: 20px;
-font-size: 100%;
 }
 
 h1 {
   color: #FFFFFF;
-  font-size: 260%
+  font-size: 2.6em
 }
 
 h2 {
   color: #FFFFFF
-  font-size: 250%
+  font-size: 2.4em
 }
 
 h3 {
   color: #FFFFFF
-  font-size: 200%
+  font-size: 1.8em
 }
 
 body {
@@ -24,7 +23,7 @@ body {
   background-color: #2c405b;
   text-align: left;
   font-family: arial,helvetica,sans-serif;
-  font-size:14px;
+  font-size:1em;
 }
 
 a:link {
@@ -51,7 +50,7 @@ a:active {
 ul {
   text-align: left;
   font-family: arial,helvetica,sans-serif;
-  font-size:12px;
+  font-size:1em;
 }
 
 A IMG {border-style: none;}
@@ -62,18 +61,25 @@ A IMG {border-style: none;}
  margin-left: 17em;
 }
 
+
 #main table, td {
   text-align: left;
   font-family: arial,helvetica,sans-serif;
-  font-size:12px;
-  border: 1;
+  font-size:1.0em;
+
+  border-collapse: collapse;
   border-top: 1px solid #369;
   border-left: 1px solid #369;
   border-right: 1px solid #69c;
   border-bottom: 1px solid #369;
 
+  padding: 5px
 }
 
+td.download {
+  font-size:1.1em;
+  font-weight: bold;
+}
 
 #OneStatTag {
  margin-bottom: 1em;
@@ -85,7 +91,7 @@ A IMG {border-style: none;}
  position:relative;
  float:left;
  font-family: verdana, Helvetica, Arial, sans-serif;
- font-size: 12px;
+ font-size: 1em;
  font-weight: bold;
  width: 9em;
  height: 100%;
@@ -123,7 +129,7 @@ A IMG {border-style: none;}
 #navigator table {
   text-align: left;
   font-family: arial,helvetica,sans-serif;
-  font-size:10px;
+  font-size:1.2em;
   border: 0;
   border-top: 1px solid #369;
   border-left: 10px solid #369;
@@ -134,3 +140,18 @@ A IMG {border-style: none;}
 #navigator td {
   border: 0;
 }
+
+table#donate {
+  table-layout: fixed ;
+  width: 30% ;
+}
+table#donate td {
+  width: 50% ;
+  text-align: center;
+} 
+
+.responsiveLogo {
+  width: 20%;
+  height: auto;
+}
+

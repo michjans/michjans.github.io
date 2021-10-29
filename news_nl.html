@@ -5,6 +5,22 @@
 <meta name="keywords" content="route, generator, map, reizen, vakantie, video, bewerking, avi, film">
 <meta name="language" content="nl-NL,nl-BE">
 <meta http-equiv="Cache-control" content="public,max-age=86400">
+<script type="text/javascript" src="rgmenu.js"></script> 
+<!-- Default Statcounter code for Route Generator http://www.routegenerator.net
+-->
+<script type="text/javascript">
+var sc_project=12352650; 
+var sc_invisible=1; 
+var sc_security="461a7200"; 
+var sc_https=1; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js" async></script>
+<noscript><div class="statcounter"><a title="free hit counter"
+href="https://statcounter.com/" target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/12352650/0/461a7200/1/" alt="free hit
+counter"></a></div></noscript>
+<!-- End of Statcounter Code -->
 <title>Download Route Generator</title>
 </head>
 
@@ -17,15 +33,10 @@
   </tr>
 </table>
 <br>
-<ul>
-	<li><a href="index_nl.html">Home</a></li>
-	<li><a href="download_nl.html">Download</a></li>
-	<li><a href="code_nl.html">Code rss feed</a></li>
-	<li>Nieuws</li>
-	<li><a href="links_nl.html">Links</a></li>
-	<li><a href="background_nl.html">Achtergrond</a></li>
-	<li><a href="planning_nl.html">Planning</a></li>
-</ul>
+<ul id="rgMenu"></ul>
+<script type="text/javascript">
+    generateMenu("Nieuws", "nl");
+</script>
 <br>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick" />
@@ -33,16 +44,7 @@
 <input type="image" src="https://www.paypalobjects.com/en_US/NL/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
 <img alt="" border="0" src="https://www.paypal.com/en_NL/i/scr/pixel.gif" width="1" height="1" />
 </form>
-<br>
-<br>
-<a href="http://www.bestfreewaredownload.com/freeware/t-free-route-generator-freeware-vjcqjznp.html" target="_blank">5 stars - reviewed by Best Freeware Download</a>
-<br>
-<br>
-<a href="http://www.softpedia.com/progClean/Route-Generator-Clean-175401.html" target="_blank">
-100% FREE award granted by Softpedia</a>
-<br>
-<br>
-<a href="http://www.nepalchildrenhome.org/">Steun voor kinderen in nood </a>
+<a href="bcdonate.html">Donate in <img src="bclogo.png" class="responsiveLogo"></a>
 <br>
 <br>
 <div id="commercial">
@@ -59,56 +61,48 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 </div>
 
-<!--ONESTAT SCRIPTCODE START-->
-<!--
-// Het wijzigen van deze code is niet toegestaan en zal uw account definitief blokkeren!
-// Account ID : 475002
-// Website URL: http://www.routegenerator.net
-// Copyright (C) 2002-2007 OneStat.com All Rights Reserved
--->
-<div id="OneStatTag"><table border='0' cellpadding='0' cellspacing='0'><tr><td align='center'>
-<script type="text/javascript">
-<!--
-function OneStat_Pageview()
-{
-    var d=document;
-    var sid="475002";
-    var CONTENTSECTION="";
-    var osp_URL=d.URL;
-    var osp_Title=d.title;
-    var t=new Date();
-    var p="http"+(d.URL.indexOf('https:')==0?'s':'')+"://stat.onestat.com/stat.aspx?tagver=2&sid="+sid;
-    p+="&url="+escape(osp_URL);
-    p+="&ti="+escape(osp_Title);
-    p+="&section="+escape(CONTENTSECTION);
-    p+="&rf="+escape(parent==self?document.referrer:top.document.referrer);
-    p+="&tz="+escape(t.getTimezoneOffset());
-    p+="&ch="+escape(t.getHours());
-    p+="&js=1";
-    p+="&ul="+escape(navigator.appName=="Netscape"?navigator.language:navigator.userLanguage);
-    if(typeof(screen)=="object"){
-       p+="&sr="+screen.width+"x"+screen.height;p+="&cd="+screen.colorDepth;
-       p+="&jo="+(navigator.javaEnabled()?"Yes":"No");
-    }
-    d.write('<a href="http://www.onestat.com/aspx/login.aspx?sid='+sid+'" target=_blank><img id="ONESTAT_TAG" border="0" src="'+p+'" alt="This site tracked by OneStat.com. Get your own free site counter."></'+'a>');
-}
-
-OneStat_Pageview();
-//-->
-</script>
-<noscript>
-<a href="http://www.onestat.com"><img border="0" src="http://stat.onestat.com/stat.aspx?tagver=2&amp;sid=475002&amp;js=No&amp;" ALT="web metrics"></a>
-</noscript>
-</td></tr><tr><td align='center'><div style="COLOR:black;display:none;FONT-FAMILY:'Verdana';"><a href="http://www.onestatfree.com" style="text-decoration:none;">web metrics</a><br></div></td></tr></table></div>
-<!--ONESTAT SCRIPTCODE END-->
-
 </div>
 
 
 <div id="main">
 
 <h1>Nieuws over Route Generator</h1>
+
+<h3>24 October 2021: Versie 1.10.0 uitgebracht</h3>
+<p>
+Verschillende bugs opgelost en verbeteringen aangebracht:
+
+<ul>
+    <li>Applicatie nu standaard 64 bits op Windows, dus werkt niet meer op 32 bits Windows! Laat me weten indien u toch een 32 bits applicatie nodig heeft!
+    <li>Scrollen en zoomen van route kaart nu mogelijk met de muis (en scroll wiel)
+    <li>Nu mogelijk om ander kaart type te selecteren in Google Maps import dialoog (roadmap, sattelite, terrain, etc.)
+    <li>GPX import zoomt nu automatisch in naar het gebied waar de route zich bevindt
+    <li>Als er bestanden gevonden worden in de uitgaande directory, wordt nu afgedwonen om een nieuwe lege directory aan te maken
+        (om te voorkomen dat bestanden per ongeluk gewist worden)
+    <li>Linux: standaard locatie van ffmpeg aangepast (/usr/bin verwijderd); er wordt vanuit gegaan dat ffpmeg altijd gevonden kan worden in PATH
+    <li>Meer (geanimeerde) standaard voertuigen toegevoegd (bron: <a href="https://gifsanimes.com">Gifs animés</a>)
+</ul>
+</p>
+
+<h3>5 juli 2020: Versie 1.9.1 uitgebracht</h3>
+<p>
+Verschillende bugs opgelost en verbeteringen aangebracht:
+
+<ul>
+    <li>Voor lat,lon naar x,y conversie (GPX import) wordt nu de Google map's web mercator conversie gebruikt, zodat routepunten beter geprojecteerd worden op de kaart
+    <li>Voorkomen van zoomniveaus met kommagetallen in Google map URL's
+    <li>Optie om eerder opgeslagen kaarten te selecteren, na import van GPX route
+    <li>Google maps dialog formaat en positie wordt nu opgeslagen (dialoog heeft zelfde formaat en positie als hij opnieuw wordt geopend)
+    <li>Maximum formaat van aangepaste voertuigen verhoogd
+    <li>Soepeler beweging van voertuig, vooral als de route rond direkt noord of zuid beweegt
+</ul>
+</p>
+
+
 <h3>19 April 2020: Version 1.9 uitgebracht</h3>
+<p>
+Voor Linux gebruikers: de nieuwe versie is nu ook beschikbaar als AppImage!
+</p>
 <p>
 De volgende nieuwe functionaliteit is toegevoegd:
 <ul>
@@ -123,6 +117,11 @@ De volgende nieuwe functionaliteit is toegevoegd:
     <li>Map en route status iconen in status bar
     <li>SVG formaat nu ondersteund voor custom voertuigen
 </ul>
+</p>
+<p>
+Doordat er nu projecten geopend en opgeslagen kunnen worden, is de toolbar bovenaan iets veranderd van structuur. De open knop, opent
+nu een project i.p.v. een afbeelding van een kaart. Hetzelfde geldt voor de opslaan (save) knop, deze slaat nu een project op
+i.p.v. een kaart afbeelding. Voor het openen en opslaan van kaart afbeeldingen zijn er 2 nieuwe knoppen bij gekomen.
 </p>
 
 <h3>17 November 2019: Version 1.9-alpha-5 uitgebracht</h3>
@@ -235,21 +234,6 @@ ontwikkel log</a> voor technische details van huidige status.
 Verder wil ik eigenlijk af van bmp2avi op Windows (voor genereren van de film), omdat mensen hiermee regelmatig tegen problemen lopen.
 Wil uitzoeken of ik op Windows ook FFmpeg kan gaan gebruiken (net als op Linux),
 maar dit is waarschijnlijk niet meer haalbaar voor de volgende versie.
-</p>
-<h3>18 September 2011: Steun voor kinderen in nood.</h3>
-<p>Wegens een werkvakantie van 3 maanden in Nepal, heb ik geen tijd gehad om de nieuwe versie van Route Generator af te ronden. In november keer ik terug en het plan is dat ik er daarna
-tijd voor vrij maak. Eén van de grootste verbeteringen zal de mogelijkheid zijn om routes aan te passen. Meer details volgen later...</p>
-<p>Maar, nu eerst even iets anders:</p>
-<p>Nepal is één van de minst ontwikkelde landen ter wereld. Het lijkt een redelijk ontwikkeld land wanneer je er rondtrekt als toerist, maar zodra je de gebaande toeristenpaden verlaat, zie je dat er nog veel ontwikkeling nodig is, met name op het gebied van vrouwen- en kinderrechten. Op dit moment help ik een organisatie hier in Nepal (<a href="http://volunteeringnepal.org">VIN</a>), om een website op te zetten om geld in te zamelen voor het bouwen van een weeshuis. In oktober zal ik meedoen aan een  wandeltocht naar het basiskamp van Mount everest met als doel om geld in te zamelen voor het weeshuis.</p>
-<p>Als u het ook belangrijk vindt  om kinderen met een ongelukkige jeugd een goede opleiding te geven in een goed tehuis, kijk eens naar de volgende websites en misschien wilt u  overwegen om een donatie te doen:</p>
-<ul>
-  <li><a href="http://volunteeringnepal.org/blog.php?status=1&vbid=18&page=Everest%20Trekking%20for%20Children%20in%20Need">Everest Trekking for Children in Need</a></li>
-  <li><a href="http://www.nepalchildrenhome.org/">Nepal Children's Home</a></li>
-</ul>
-<p>Alvast bedankt<br>
-  Michiel
-</p>
-<p>PS.  Ik houd u op de hoogte mbt de nieuwe versie van Route Generator, die ik voor het eind van dit jaar online probeer te zetten.
 </p>
 <h3>9 Juni 2011: Niewe website indeling</h3>
 <p>
