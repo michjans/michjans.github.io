@@ -4,7 +4,7 @@
 <link rel="stylesheet" type="text/css" href="mystyle.css" />
 <meta name="keywords" content="route, generator, map, reizen, vakantie, video, bewerking, avi, film">
 <meta name="language" content="nl-NL,nl-BE">
-<meta http-equiv="Cache-control" content="public,max-age=86400">
+<meta http-equiv="Cache-Control" content="max-age=86400">
 <script type="text/javascript" src="rgmenu.js"></script> 
 <!-- Default Statcounter code for Route Generator http://www.routegenerator.net
 -->
@@ -21,6 +21,9 @@ href="https://statcounter.com/" target="_blank"><img class="statcounter"
 src="https://c.statcounter.com/12352650/0/461a7200/1/" alt="free hit
 counter"></a></div></noscript>
 <!-- End of Statcounter Code -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7721098427462203"
+     crossorigin="anonymous"></script>
+
 <title>Download Route Generator</title>
 </head>
 
@@ -47,20 +50,18 @@ counter"></a></div></noscript>
 <a href="bcdonate.html">Donate in <img src="bclogo.png" class="responsiveLogo"></a>
 <br>
 <br>
-<div id="commercial">
-<script type="text/javascript"><!--
-google_ad_client = "pub-7721098427462203";
-/* RG2 */
-google_ad_slot = "1628061068";
-google_ad_width = 180;
-google_ad_height = 150;
-//-->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7721098427462203"
+     crossorigin="anonymous"></script>
+<!-- RG2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7721098427462203"
+     data-ad-slot="1628061068"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-<script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-</div>
-
 </div>
 
 
@@ -68,22 +69,28 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <h1>Nieuws over Route Generator</h1>
 
-<h3>24 October 2021: Versie 1.10.0 uitgebracht</h3>
+<h3>18 februari 2023: versie 1.11.0 uitgebracht</h3>
 <p>
-Verschillende bugs opgelost en verbeteringen aangebracht:
-
+De volgende nieuwe functionaliteit is toegevoegd:
 <ul>
-    <li>Applicatie nu standaard 64 bits op Windows, dus werkt niet meer op 32 bits Windows! Laat me weten indien u toch een 32 bits applicatie nodig heeft!
-    <li>Scrollen en zoomen van route kaart nu mogelijk met de muis (en scroll wiel)
-    <li>Nu mogelijk om ander kaart type te selecteren in Google Maps import dialoog (roadmap, sattelite, terrain, etc.)
-    <li>GPX import zoomt nu automatisch in naar het gebied waar de route zich bevindt
-    <li>Als er bestanden gevonden worden in de uitgaande directory, wordt nu afgedwonen om een nieuwe lege directory aan te maken
-        (om te voorkomen dat bestanden per ongeluk gewist worden)
-    <li>Linux: standaard locatie van ffmpeg aangepast (/usr/bin verwijderd); er wordt vanuit gegaan dat ffpmeg altijd gevonden kan worden in PATH
-    <li>Meer (geanimeerde) standaard voertuigen toegevoegd (bron: <a href="https://gifsanimes.com">Gifs animés</a>)
+     <li>Route Generator wordt nu geinstalleerd met een nieuwe installer. Het wordt geadviseerd om eerst de oude versie te de-installeren!
+     <li>GeoTiff ondersteuning.
+     <li>Mogelijkheid om een vaste resolutie in te stellen voor video's.
+     <li>Scrollende/schuivende kaart met vaste resolutie bij het genereren van de video.
+     <li>Omdat de resolutie van de achtergrondkaart nu hoger kan zijn dan de video resolutie, kunt u nu een verhouding specificeren ten opzichte
+         van de geselecteerde uitvoerresolutie in de Google Maps import dialoog.
+     <li>Het is nu weer mogelijk om een bestaande uivoer map opnieuw te selecteren.
+     <li>FPS-instelling wordt nu correct doorgegeven aan de ffmpeg commandline.
+     <li>Mogelijkheid om verschillende bestandstypen in te stellen voor gegenereerde videoframes (bijv. PNG, JPG, etc.)
 </ul>
 </p>
-
+<p>
+Zie <a href="https://www.routegenerator.net/tutorials/general/index.html">General tutorial pagina</a> voor bijgewerkte instructies. Deze pagina
+is ook opgenomen in de Help->Tutorial van de applicatie.
+</p>
+<p>
+    En zie ook deze nieuwe <a href="tutorials/multiroute/index.html">Multiple routes and scrolling map</a> tutorial
+</p>
 <h3>5 juli 2020: Versie 1.9.1 uitgebracht</h3>
 <p>
 Verschillende bugs opgelost en verbeteringen aangebracht:
@@ -149,9 +156,9 @@ Nieuwe alpha versie met gedeeltelijke of voltooide functionaliteit:
 </p>
 <ul>
 <li>GPX-import.
-<li>Automatisch Google maps importeren van GPX-coördinaten (groene rechthoek toont GPX-routegrenzen).
-<li>Geografische coördinaten van kaarten worden opgeslagen, dus geen nieuwe import uit Google Maps is nodig bij het opnieuw openen van dezelfde kaart met een GPX-bestand.
-<li>Nog in ontwikkeling: projectbestanden opslaan / laden met kaart- en routecoördinaten.
+<li>Automatisch Google maps importeren van GPX-coï¿½rdinaten (groene rechthoek toont GPX-routegrenzen).
+<li>Geografische coï¿½rdinaten van kaarten worden opgeslagen, dus geen nieuwe import uit Google Maps is nodig bij het opnieuw openen van dezelfde kaart met een GPX-bestand.
+<li>Nog in ontwikkeling: projectbestanden opslaan / laden met kaart- en routecoï¿½rdinaten.
 </ul>
 
 <h3>5 Maart 2016: Versie 1.7.1 uitgebracht</h3>
@@ -240,7 +247,7 @@ maar dit is waarschijnlijk niet meer haalbaar voor de volgende versie.
 <ul>
 <li>Website indeling verbeterd, door toevoegen van een navigatie menu.
 <li>Er zijn een aantal nieuwe functies in ontwikkeling voor Route Generator, maar deze moeten
-    verder getest worden. Eén van de grootste verbeteringen is de mogelijkheid om routes aan
+    verder getest worden. Eï¿½n van de grootste verbeteringen is de mogelijkheid om routes aan
     te passen. Meer details volgen later...
 </ul>
 </p>

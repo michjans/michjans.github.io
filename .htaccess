@@ -1,0 +1,3 @@
+<FilesMatch "\.(html)$">
+Header set Cache-Control "max-age=86400, must-revalidate"
+</FilesMatch>
