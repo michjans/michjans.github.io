@@ -147,23 +147,43 @@ If an older version of Route Generator is still installed, it is recommended to 
 </p>
 <h3>Linux <img src="linux.png" width="40px" height="40px"/></h3>
 <p>
-  Ubuntu users can download an installer. Make executable (chmod +x) and run. The Route_Generator-x86_64.AppImage is no longer supported and only available for older versions.
-<br><br>
+  Ubuntu users can download an executable installer. It does not install all required dependencies automatically, so the following
+  packages have to be installed manually using apt:
+  <ul>
+    <li>libxcb-icccm4
+    <li>libxcb-image0
+    <li>libxcb-keysyms1
+    <li>libxcb-render-util0
+    <li>libxcb-cursor0
+    <li>libwebp6
+    <li>libtiff5 
+    <li>libgeotiff5
+    <li>libproj22,libproj25 (depending on Ubuntu 22 or 24)
+  </ul>
+</p>
+<p>
+  Ubuntu 24 should be compatible with Mint 22 and Ubuntu 22 with Mint 21, so the installers should work on Mint as well.
+  Please let me know if that is the case or not.
+</p>
+<p>
+  The Route_Generator-x86_64.AppImage is only available for older versions, but I am investigating if I can get it working
+  again in order to support other Linux distributions as well.
+</p>
 <table>
   <tr>
     <td>v2.0.1</td>
     <td class="download"><a href="https://sourceforge.net/projects/routegen/files/routegen/2.0/routegen-linux-ubuntu-24.04-2.0.1.run/download">routegen-linux-ubuntu-24.04-2.0.1.run</a></td>
-    <td>Ubuntu 24.04 64 bits</td>
+    <td>Ubuntu 24.04 (possibly also works on Mint 22)</td>
   </tr>
   <tr>
       <td>v2.0.0</td>
       <td class="download"><a href="https://sourceforge.net/projects/routegen/files/routegen/2.0/routegen-linux-ubuntu-22.04-2.0.0.run/download">routegen-linux-ubuntu-22.04-2.0.0.run</a></td>
-      <td>Ubuntu 22.04 64 bits</td>
+      <td>Ubuntu 22.04 (possibly also works on Mint 21)</td>
   </tr>
   <tr>
       <td>v1.12.0</td>
       <td class="download"><a href="https://sourceforge.net/projects/routegen/files/routegen/1.12/routegen-linux-ubuntu-22.04-1.12.0.run/download">routegen-linux-ubuntu-22.04-1.12.0.run</a></td>
-      <td>Ubuntu 22.04 64 bits</td>
+      <td>Ubuntu 22.04 (possibly also works on Mint 21)</td>
   </tr>
   <tr>
       <td>v1.10.0</td>
