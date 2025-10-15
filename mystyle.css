@@ -28,7 +28,7 @@ body {
   background-color: #2c405b;
   text-align: left;
   font-family: arial,helvetica,sans-serif;
-  font-size:1em;
+  font-size:1.0em;
 }
 
 a:link {
@@ -67,10 +67,10 @@ A IMG {border-style: none;}
 }
 
 
-#main table, td {
+#main table, #main td {
   text-align: left;
   font-family: arial,helvetica,sans-serif;
-  font-size:1.0em;
+  font-size:1.2rem; /* consistent with body text */
 
   border-collapse: collapse;
   border-top: 1px solid #369;

@@ -148,8 +148,16 @@ Route Generator installeert, inclusief FFmpeg en bmp2avi.
 
 <h3>Linux <img src="linux.png" width="40px" height="40px"/></h3>
 <p>
-  Ubuntu-gebruikers kunnen een uitvoerbaar installatiebestand downloaden. Het installeert niet alle vereiste
-  afhankelijkheden automatisch, dus de volgende pakketten moeten handmatig worden geïnstalleerd met apt:
+  De meegeleverde installers zijn gebouwd en getest op <b>(K)Ubuntu</b>, maar werken
+  (waarschijnlijk) ook op andere Linux-distributies die gebaseerd zijn op Debian, zoals:
+  <ul>
+    <li>Mint v21, v22</li>
+    <li>Elementary OS v7, v8</li>
+    <li>Debian v11, v12</li>
+    <li>etc.</li>
+  </ul>
+  
+  Voor de laatste release moeten de volgende pakketten handmatig worden geïnstalleerd met behulp van apt:
   <ul>
     <li>libxcb-icccm4
     <li>libxcb-image0
@@ -159,37 +167,32 @@ Route Generator installeert, inclusief FFmpeg en bmp2avi.
     <li>libwebp7
     <li>libtiff5 
     <li>libgeotiff5
-    <li>libproj22,libproj25 (afhankelijk van Ubuntu 22 or 24)
+    <li>libproj22, libproj25 (afhankelijk van Ubuntu 22 of 24)
   </ul>
+  Voor oudere releases zullen de afhankelijkheden vergelijkbaar zijn, maar zijn waarschijnlijk oudere versies (d.w.z.
+  sonames) nodig. Er kunnen nog andere pakketten nodig zijn, maar wanneer u <i>routegen</i> vanaf de opdrachtregel
+  uitvoert, wordt meestal wel vermeld welke andere pakketten nog nodig zijn.
 </p>
 <p>
-  Ubuntu 24 zou compatibel moeten zijn met Mint 22 en Ubuntu 22 met Mint 21, dus de installatiebestanden zouden ook op
-  Mint moeten werken. Laat me alsjeblieft weten of dat inderdaad het geval is of niet.  
+  De Route_Generator-x86_64.AppImage is alleen beschikbaar voor oudere versies, maar wordt mogelijk later toegevoegd
+  om ook andere Linux-distributies te ondersteunen.
 </p>
-<p>
-  De Route_Generator-x86_64.AppImage is momenteel alleen beschikbaar voor oudere versies, maar ik ben aan het
-  onderzoeken of ik deze weer aan de praat kan krijgen om zo ook andere Linux-distributies te ondersteunen.    
-</p>
+
 <table>
-    <tr>
-      <td>v2.0.1</td>
-      <td class="download"><a href="https://sourceforge.net/projects/routegen/files/routegen/2.0/routegen-linux-ubuntu-24.04-2.0.1.run/download">routegen-linux-ubuntu-24.04-2.0.1.run</a></td>
-      <td>Ubuntu 24.04 (werkt mogelijk ook op Mint 22)</td>
-    </tr>
-    <tr>
+  <tr>
+    <td>v2.0.1</td>
+    <td class="download"><a href="https://sourceforge.net/projects/routegen/files/routegen/2.0/routegen-linux-ubuntu-24.04-2.0.1.run/download">routegen-linux-ubuntu-24.04-2.0.1.run</a></td>
+    <td>Ubuntu 24.04 (Mint 22, Elementary OS 8)</td>
+  </tr>
+  <tr>
       <td>v2.0.0</td>
       <td class="download"><a href="https://sourceforge.net/projects/routegen/files/routegen/2.0/routegen-linux-ubuntu-22.04-2.0.0.run/download">routegen-linux-ubuntu-22.04-2.0.0.run</a></td>
-      <td>Ubuntu 22.04 (werkt mogelijk ook op Mint 21)</td>
+      <td>Ubuntu 22.04 (Mint 21, Elementary OS 7)</td>
   </tr>
   <tr>
       <td>v1.12.0</td>
       <td class="download"><a href="https://sourceforge.net/projects/routegen/files/routegen/1.12/routegen-linux-ubuntu-22.04-1.12.0.run/download">routegen-linux-ubuntu-22.04-1.12.0.run</a></td>
-      <td>Ubuntu 22.04 (werkt mogelijk ook op Mint 21)</td>
-  </tr>
-  <tr>
-      <td>v1.11.0</td>
-      <td class="download"><a href="https://sourceforge.net/projects/routegen/files/routegen/1.11/routegen-linux-ubuntu-20.04-1.11.0.run/download">routegen-linux-ubuntu-20.04-1.11.0.run</a></td>
-      <td>Ubuntu 20.04 (werkt mogelijk ook op Mint 21)</td>
+      <td>Ubuntu 22.04 (Mint 21, Elementary OS 7)</td>
   </tr>
   <tr>
       <td>v1.10.0</td>
